@@ -1,0 +1,54 @@
+#!/usr/bin/env bash
+
+while getopts ":d:q:n:" opt; do
+	case $opt in
+	d)
+		DB=${OPTARG}
+	;;
+	q)
+		QUERY=${OPTARG}
+	;;
+	n)
+		N=${OPTARG:=2}
+	;;
+	esac
+done
+
+TMP_SQL="tmp.sql"
+INDEX="index.sql"
+SPRITE="sprite.sql"
+DESCRIPTION="description.sql"
+EVOLUTION="evolution.sql"
+ENCOUNTER="encounter.sql"
+MOVES="moves.sql"
+BUNDLE_SQL="bundle.sql"
+# DB="db.sqlite3"
+# QUERY="catchemall.sql"
+
+function index() {
+    cp ${INDEX} ${BUNDLE_SQL}
+}
+
+function argparse() {
+	cat <(echo ".parameter set @id ${2}
+.output dist/${2}.html") ${1}
+}
+
+function concat_sql() {
+    cat ${SPRITE} ${DESCRIPTION} ${EVOLUTION} ${ENCOUNTER} ${MOVES}
+}
+
+function pokemon() {
+    concat_sql > ${TMP_SQL}
+    for((i=1;i<=N;i++)); do
+        argparse ${TMP_SQL} ${i} >> ${BUNDLE_SQL}
+    done
+    rm ${TMP_SQL}
+}
+
+function main() {
+    index
+    pokemon
+}
+
+main
