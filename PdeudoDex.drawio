@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2024-03-15T16:25:42.016Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.7" etag="y_CBI94bctLjZklzEuo6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-15T16:35:05.787Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="g1x8T3Yt8to2Xj1U8xob" version="24.0.7" type="github">
   <diagram name="Página-1" id="B-YwHTcvdXk2-c4VdZ_A">
-    <mxGraphModel>
+    <mxGraphModel dx="792" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZjajpMc0LDpxGtNRoVHi-1" value="Foto&lt;div&gt;Artística&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZjajpMc0LDpxGtNRoVHi-2" value="Nº" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZjajpMc0LDpxGtNRoVHi-3" value="Gruñido al entrar" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZjajpMc0LDpxGtNRoVHi-4" value="Nombre" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="78" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZjajpMc0LDpxGtNRoVHi-5" value="Tipo 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="118" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZjajpMc0LDpxGtNRoVHi-6" value="Tipo 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="118" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZjajpMc0LDpxGtNRoVHi-7" value="Altura" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="38" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZjajpMc0LDpxGtNRoVHi-8" value="Peso" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="78" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZjajpMc0LDpxGtNRoVHi-9" value="Fuerte contra&lt;div&gt;1&lt;/div&gt;&lt;div&gt;2&lt;/div&gt;&lt;div&gt;3&lt;/div&gt;&lt;div&gt;..&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="148" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZjajpMc0LDpxGtNRoVHi-10" value="Débil contra&lt;div&gt;1&lt;/div&gt;&lt;div&gt;2&lt;/div&gt;&lt;div&gt;3&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="148" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZjajpMc0LDpxGtNRoVHi-11" value="Sprites&lt;div&gt;Gen1&lt;/div&gt;&lt;div&gt;Gen2&lt;/div&gt;&lt;div&gt;Gen3&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="163" width="120" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="ZjajpMc0LDpxGtNRoVHi-12" value="Pre-Evolucion&lt;div&gt;Gen-x&lt;/div&gt;&lt;div&gt;¿cómo?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Evolución&lt;/div&gt;&lt;div&gt;Gen-x&lt;/div&gt;&lt;div&gt;¿Cómo?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Evolución 2&lt;/div&gt;&lt;div&gt;Gen-x&lt;/div&gt;&lt;div&gt;¿Cómo?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Eevee puto&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="290" width="120" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ZjajpMc0LDpxGtNRoVHi-13" value="Descripción&lt;div&gt;Gen1&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Gen2&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Gen3&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Gen4&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;....&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="238" width="260" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="ZjajpMc0LDpxGtNRoVHi-14" value="Cómo conseguir&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Gen1&lt;/div&gt;&lt;div&gt;----&lt;/div&gt;&lt;div&gt;Gen2&lt;/div&gt;&lt;div&gt;----&lt;/div&gt;&lt;div&gt;Gen 3&lt;/div&gt;&lt;div&gt;----&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;etc&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="410" width="260" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ZjajpMc0LDpxGtNRoVHi-15" value="Movimientos Nivel&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Gen1&lt;/div&gt;&lt;div&gt;Nivel / Nombre ataque / Tipo ataque&lt;/div&gt;&lt;div&gt;....&lt;/div&gt;&lt;div&gt;Gen2&lt;/div&gt;&lt;div&gt;etc&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="590" width="470" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ZjajpMc0LDpxGtNRoVHi-16" value="Movimientos MT&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Gen1&lt;/div&gt;&lt;div&gt;Nivel / Nombre ataque / Tipo ataque&lt;/div&gt;&lt;div&gt;....&lt;/div&gt;&lt;div&gt;Gen2&lt;/div&gt;&lt;div&gt;etc&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="770" width="470" height="180" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
