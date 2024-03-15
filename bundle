@@ -18,6 +18,7 @@ TMP_SQL="tmp.sql"
 INDEX="index.sql"
 SPRITE="sprite.sql"
 DESCRIPTION="description.sql"
+BALANCE="balance.sql"
 EVOLUTION="evolution.sql"
 ENCOUNTER="encounter.sql"
 MOVES="moves.sql"
@@ -35,7 +36,7 @@ function argparse() {
 }
 
 function concat_sql() {
-    cat ${SPRITE} ${DESCRIPTION} ${EVOLUTION} ${ENCOUNTER} ${MOVES}
+    cat ${SPRITE} ${DESCRIPTION} ${BALANCE} ${EVOLUTION} ${ENCOUNTER} ${MOVES}
 }
 
 function pokemon() {
