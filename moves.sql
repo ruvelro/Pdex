@@ -14,4 +14,4 @@ WHERE
 	pokemon_v2_pokemonmove.pokemon_id = @id AND
 	pokemon_v2_pokemonmove.version_group_id in(1, 2) AND
 	pokemon_v2_pokemonmove.move_learn_method_id = 1 AND
-	pokemon_v2_movename.language_id = 7; -- 9 for US-en
+	pokemon_v2_movename.language_id = 9;
