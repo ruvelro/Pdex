@@ -1,14 +1,14 @@
 .mode html
 .headers on
 
-SELECT
-	DISTINCT pokemon_v2_movename.name as 'Movimiento',
+SELECT DISTINCT 
 	IIF(pokemon_v2_pokemonmove.level = 0, 
 		NULL, 
 		pokemon_v2_pokemonmove.level
 	) as 'Nivel',
 	pokemon_v2_typename.name as 'Tipo',
-	pokemon_v2_movelearnmethodname.name as 'Origen'
+	pokemon_v2_movelearnmethodname.name as 'Origen',
+	pokemon_v2_movename.name as 'Movimiento'
 FROM 
 	pokemon_v2_pokemonmove
 INNER JOIN

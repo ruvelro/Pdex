@@ -6,8 +6,8 @@ SELECT
 		SELECT
 			group_concat(strong_name, ', ') as 'Fuerte'
 		FROM (
-			SELECT
-				DISTINCT strong.name as 'strong_name'
+			SELECT DISTINCT
+				strong.name as 'strong_name'
 			FROM
 				pokemon_v2_pokemontype
 			INNER JOIN
@@ -32,8 +32,8 @@ SELECT
 		SELECT
 			group_concat(weak_name, ', ') as 'Débil'
 		FROM (
-			SELECT
-				DISTINCT weak.name as 'weak_name'
+			SELECT DISTINCT
+				weak.name as 'weak_name'
 			FROM
 				pokemon_v2_pokemontype
 			INNER JOIN

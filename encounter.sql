@@ -1,8 +1,8 @@
 .mode html
 .headers on
 
-SELECT
-	DISTINCT pokemon_v2_locationname.name as 'Localización'
+SELECT DISTINCT
+	pokemon_v2_locationname.name as 'Localización'
 FROM
 	pokemon_v2_encounter
 LEFT JOIN
