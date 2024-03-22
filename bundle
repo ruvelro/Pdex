@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 N=151
 INDEX="index.sql"
@@ -17,29 +17,31 @@ while getopts "n:" opt; do
 	esac
 done
 
-function index() {
+index() {
 	cat ${INDEX}
 }
 
-function argparse() {
+argparse() {
 	echo ".parameter set @id ${2}
 .output dist/${2}.html"
 	echo "${1}"
 }
 
-function concat_sql() {
+concat_sql() {
 	cat "${SPRITE}" "${DESCRIPTION}" "${BALANCE}" "${EVOLUTION}" "${ENCOUNTER}" "${MOVES}"
 }
 
-function pokemon() {
+pokemon() {
 	TMP_SQL=$(concat_sql)
 	echo "${TMP_SQL}"
-	for((i=1;i<=N;i++)); do
+	i=1
+	while [ "${i}" -le "${N}" ]; do
 		argparse "${TMP_SQL}" ${i}
+		i=$((i+1))
 	done
 }
 
-function main() {
+main() {
 	index
 	pokemon
 }
