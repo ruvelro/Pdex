@@ -30,8 +30,8 @@ ON
 WHERE
 	pokemon_v2_pokemonmove.pokemon_id = @id
 	AND pokemon_v2_pokemonmove.version_group_id in(1, 2)
-	AND pokemon_v2_movelearnmethodname.language_id = 9
-	AND pokemon_v2_movename.language_id = 9
-	AND pokemon_v2_typename.language_id = 9
+	AND pokemon_v2_movelearnmethodname.language_id = @lang
+	AND pokemon_v2_movename.language_id = @lang
+	AND pokemon_v2_typename.language_id = @lang
 ORDER BY
 	pokemon_v2_pokemonmove.level DESC;

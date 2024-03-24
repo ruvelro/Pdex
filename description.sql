@@ -25,7 +25,7 @@ ON
 	pokemon_v2_pokemontype.type_id = pokemon_v2_type.id
 WHERE
 	pokemon_v2_pokemon.id = @id AND
-	pokemon_v2_pokemonspeciesname.language_id = 9;
+	pokemon_v2_pokemonspeciesname.language_id = @lang;
 
 SELECT
 	REPLACE(pokemon_v2_pokemonspeciesflavortext.flavor_text, '', ' ') as 'Descripción'
@@ -33,5 +33,5 @@ FROM
 	pokemon_v2_pokemonspeciesflavortext
 WHERE
 	pokemon_v2_pokemonspeciesflavortext.pokemon_species_id = @id AND
-	pokemon_v2_pokemonspeciesflavortext.language_id = 9
+	pokemon_v2_pokemonspeciesflavortext.language_id = @lang
 LIMIT 1;

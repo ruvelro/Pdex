@@ -15,5 +15,5 @@ ON
 	pokemon_v2_locationarea.location_id = pokemon_v2_locationname.location_id
 WHERE
 	pokemon_v2_encounter.pokemon_id = @id AND
-	pokemon_v2_locationname.language_id = 9 AND
+	pokemon_v2_locationname.language_id = @lang AND
 	pokemon_v2_encounter.version_id IN(1, 2);

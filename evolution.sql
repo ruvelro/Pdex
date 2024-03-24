@@ -56,11 +56,11 @@ ON
 WHERE
 	pokemon_v2_pokemonspecies.id = @id
 	AND (pokemon_from_evolution_trigger.language_id IS NULL
-		OR pokemon_from_evolution_trigger.language_id = 9
+		OR pokemon_from_evolution_trigger.language_id = @lang
 	)
 	AND (pokemon_id_evolution_trigger.language_id IS NULL
-		OR pokemon_id_evolution_trigger.language_id = 9
+		OR pokemon_id_evolution_trigger.language_id = @lang
 	)
 	AND (pokemon_to_evolution_trigger.language_id IS NULL
-		OR pokemon_to_evolution_trigger.language_id is 9
+		OR pokemon_to_evolution_trigger.language_id is @lang
 	);

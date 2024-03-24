@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 
 N=151
+LANGUAGE_ID=9
 INDEX="index.sql"
 SPRITE="sprite.sql"
 DESCRIPTION="description.sql"
@@ -23,6 +24,7 @@ index() {
 
 argparse() {
 	echo ".parameter set @id ${2}
+.parameter set @lang ${LANGUAGE_ID}
 .output dist/${2}.html"
 	echo "${1}"
 }
