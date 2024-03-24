@@ -27,9 +27,13 @@ INNER JOIN
 	pokemon_v2_typename
 ON
 	pokemon_v2_move.type_id = pokemon_v2_typename.type_id
+INNER JOIN
+	pokemon_v2_versiongroup
+ON
+	pokemon_v2_versiongroup.id = pokemon_v2_pokemonmove.version_group_id
 WHERE
 	pokemon_v2_pokemonmove.pokemon_id = @id
-	AND pokemon_v2_pokemonmove.version_group_id in(1, 2)
+	AND pokemon_v2_versiongroup.generation_id = @gen
 	AND pokemon_v2_movelearnmethodname.language_id = @lang
 	AND pokemon_v2_movename.language_id = @lang
 	AND pokemon_v2_typename.language_id = @lang
